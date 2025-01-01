@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchy Systems</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 2rem;
+        }
+
+        section {
+            padding: 20px 10%;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #4da8da;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="hierarchy_system_logo.png" alt="Hierarchy Systems Logo">
+        <h1>Hierarchy Systems</h1>
+        <p>Your trusted partner in IT and electronic security solutions</p>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>At Hierarchy Systems, we specialize in providing cutting-edge IT and electronic security solutions. Our team is dedicated to ensuring the safety and efficiency of your operations through innovative technology.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>CCTV Systems</h3>
+                <p>Comprehensive surveillance solutions for all your security needs.</p>
+            </div>
+            <div class="service">
+                <h3>Fire & Intruder Alarm Systems</h3>
+                <p>State-of-the-art systems to protect your property from threats.</p>
+            </div>
+            <div class="service">
+                <h3>Access Control & Time Attendance</h3>
+                <p>Efficient management of access and employee attendance.</p>
+            </div>
+            <div class="service">
+                <h3>Network Cabling</h3>
+                <p>High-quality cabling solutions for robust and reliable connectivity.</p>
+            </div>
+            <div class="service">
+                <h3>Wireless Solutions</h3>
+                <p>Secure and scalable wireless networks tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Consultancy</h3>
+                <p>Expert advice to design and implement security systems effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hierarchy Systems. All rights reserved. | <a href="#">Contact Us</a></p>
+    </footer>
+</body>
+</html>
